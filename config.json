@@ -15,6 +15,7 @@
   },
   "whatsapp": {
     "mode": "private",
+    "buttonText": "JOIN WHATSAPP GROUP",
     "private": {
       "real": {
         "number": "1234567890",
@@ -33,6 +34,9 @@
         "inviteCode": "FAKE_GROUP_CODE"
       }
     }
+  },
+  "ui": {
+    "buttonText": "WhatsApp客服"
   },
   "tracking": {
     "event": "Contact"
