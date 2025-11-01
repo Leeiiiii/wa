@@ -15,7 +15,7 @@
   },
   "whatsapp": {
     "mode": "private",
-    "buttonText": "联系我们",
+    "buttonText": "JOIN WHATSAPP GROUP",
     "private": {
       "real": {
         "number": "1234567890",
