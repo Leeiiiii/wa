@@ -1,4 +1,40 @@
 {
-  "phone": "13036168555",
-  "message": "Hi! I'd like to join the VIP chat for real-time stock picks!"
+  "facebook": {
+    "pixels": [
+      {
+        "id": "1234567890123456",
+        "enabled": true,
+        "note": "主像素"
+      },
+      {
+        "id": "9876543210987654",
+        "enabled": true,
+        "note": "备用像素"
+      }
+    ]
+  },
+  "whatsapp": {
+    "mode": "private",
+    "private": {
+      "real": {
+        "number": "1234567890",
+        "text": "Hello! I'm interested in your service."
+      },
+      "fake": {
+        "number": "0000000000",
+        "text": "Service temporarily unavailable."
+      }
+    },
+    "group": {
+      "real": {
+        "inviteCode": "REAL_GROUP_CODE"
+      },
+      "fake": {
+        "inviteCode": "FAKE_GROUP_CODE"
+      }
+    }
+  },
+  "tracking": {
+    "event": "Contact"
+  }
 }
